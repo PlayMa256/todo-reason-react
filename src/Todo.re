@@ -10,5 +10,5 @@ let make = (~title, ~isDone:bool = false, _children) => {
           | true => ReasonReact.string("WHATA SHAME")
         }
       )</span>
-    </div>,
+    </div>
 };

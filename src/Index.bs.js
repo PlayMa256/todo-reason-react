@@ -3,8 +3,8 @@
 
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
-var Todo$ReactTemplate = require("./Todo.bs.js");
+var Todos$ReactTemplate = require("./Todos.bs.js");
 
-ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, Todo$ReactTemplate.make("Helloaeqwe!", undefined, /* array */[])), "index2");
+ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, Todos$ReactTemplate.make(/* array */[])), "app");
 
 /*  Not a pure module */

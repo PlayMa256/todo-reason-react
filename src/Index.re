@@ -1,1 +1,1 @@
-ReactDOMRe.renderToElementWithId(<Todo title="Helloaeqwe!" />, "index2");
+ReactDOMRe.renderToElementWithId(<Todos />, "app");
